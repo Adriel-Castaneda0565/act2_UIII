@@ -158,12 +158,24 @@ class HomeScree extends StatelessWidget {
               child: Stack(
                 children: [
                   Positioned(
+                    top:110,
                     left: 0,
-                    child: displayImage(170, "https://github.com/user-attachments/assets/691eac9c-a7f7-4d89-8cfc-c06fc6793036"),
+                    child: displayImage(100, "https://github.com/Adriel-Castaneda0565/jugueteria_imagenes_app/blob/main/dodito.png?raw=true"),
                   ),
                   Positioned(
+                    
                     right: 0,
-                    child: displayImage(180, "https://github.com/user-attachments/assets/691eac9c-a7f7-4d89-8cfc-c06fc6793036"),
+                    child: displayImage(100, "https://github.com/Adriel-Castaneda0565/jugueteria_imagenes_app/blob/main/dodito.png?raw=true"),
+                  ),
+                  Positioned(
+                    
+                    left: 0,
+                    child: displayImage(100, "https://github.com/Adriel-Castaneda0565/jugueteria_imagenes_app/blob/main/dodito.png?raw=true"),
+                  ),
+                  Positioned(
+                    top:110,
+                    right: 0,
+                    child: displayImage(100, "https://github.com/Adriel-Castaneda0565/jugueteria_imagenes_app/blob/main/dodito.png?raw=true"),
                   ),
                   Align(
                     alignment: Alignment.bottomCenter,
